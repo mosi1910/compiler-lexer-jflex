@@ -27,11 +27,12 @@ The program reads an input file and prints tokens in the specified formatted out
 
 ```
 compiler-lexer-jflex/
+├──docs/
+│ └── report.pdf
 ├── src/
 │ ├── Parser.flex # JFlex specification file
 │ ├── Parser.java # Generated lexer (from JFlex)
 │ └── test.txt # Sample input file
-├── report.pdf
 └── README.md
 ```
 ---
@@ -115,3 +116,4 @@ This project demonstrates:
 This project is provided for educational purposes. You may reuse or modify the code with proper attribution.
 
 ---
+
